@@ -66,26 +66,26 @@ This system is built with **Streamlit** (Python web framework), **PostgreSQL** (
 └───────────────────────────┬─────────────────────────────────────┘
                             │  HTTP
                             ▼
-┌───────────────────────────────────────────────────────────────┐
-│                   STREAMLIT APPLICATION                       │
-│                                                               │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌───────────────┐  │
-│  │ app.py   │  │ Pages    │  │ Utils    │  │ Config        │  │
-│  │ (Entry)  │  │ (9 pages)│  │ theme    │  │ settings.py   │  │
-│  │ Auth     │  │          │  │ sidebar  │  │ database.py   │  │
-│  │ Login    │  │ Dashboard│  │ formatters│ │               │  │
-│  │ Register │  │ Create   │  │ validators│ │               │  │
-│  └────┬─────┘  │ View     │  └──────────┘  └───────────────┘  │
-│       │        │ Search   │                                   │
-│       │        │ Templates│  ┌──────────────────────────────┐ │
-│       │        │ Profile  │  │        SERVICES LAYER        │ │
-│       │        │ Admin    │  │                              │ │
-│       │        │ Tracker  │  │  AuthService    AIService    │ │
-│       │        │ Live Rec.│  │  MoMService     SpeechSvc    │ │
-│       │        └──────────┘  │  AnalyticsSvc   ExportSvc    │ │
-│       │                      │  ActionTrackerSvc            │ │
-│       │                      └───────────────┬──────────────┘ │
-└───────┼──────────────────────────────────────┼────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                   STREAMLIT APPLICATION                        │
+│                                                                │
+│  ┌──────────┐  ┌──────────┐  ┌───────────┐  ┌───────────────┐  │
+│  │ app.py   │  │ Pages    │  │ Utils     │  │ Config        │  │
+│  │ (Entry)  │  │ (9 pages)│  │ theme     │  │ settings.py   │  │
+│  │ Auth     │  │          │  │ sidebar   │  │ database.py   │  │
+│  │ Login    │  │ Dashboard│  │ formatters│  │               │  │
+│  │ Register │  │ Create   │  │ validators│  │               │  │
+│  └────┬─────┘  │ View     │  └───────────┘  └───────────────┘  │
+│       │        │ Search   │                                    │
+│       │        │ Templates│  ┌──────────────────────────────┐  │
+│       │        │ Profile  │  │        SERVICES LAYER        │  │
+│       │        │ Admin    │  │                              │  │
+│       │        │ Tracker  │  │  AuthService    AIService    │  │
+│       │        │ Live Rec.│  │  MoMService     SpeechSvc    │  │
+│       │        └──────────┘  │  AnalyticsSvc   ExportSvc    │  │
+│       │                      │  ActionTrackerSvc            │  │
+│       │                      └───────────────┬──────────────┘  │
+└───────┼──────────────────────────────────────┼─────────────────┘
         │                                      │
         ▼                                      ▼
 ┌───────────────┐                  ┌───────────────────────────┐
