@@ -1,0 +1,8 @@
+{
+    "name": "Review Meeting",
+    "category": "review",
+    "agenda": "1. Sprint Review\n2. Completed Tasks\n3. Pending Items\n4. Performance Metrics\n5. Improvements",
+    "discussion": "",
+    "decisions": "",
+    "default_roles": ["Team Lead", "Team Member", "Stakeholder"]
+}

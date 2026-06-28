@@ -1,0 +1,8 @@
+{
+    "name": "Client Meeting",
+    "category": "client",
+    "agenda": "1. Welcome & Introductions\n2. Project Progress Demo\n3. Client Feedback\n4. Timeline Discussion\n5. Action Items",
+    "discussion": "",
+    "decisions": "",
+    "default_roles": ["Account Manager", "Project Lead", "Client Representative"]
+}

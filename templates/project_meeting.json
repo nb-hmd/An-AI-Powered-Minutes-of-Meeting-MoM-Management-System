@@ -1,0 +1,8 @@
+{
+    "name": "Project Meeting",
+    "category": "project",
+    "agenda": "1. Project Status Update\n2. Milestones Review\n3. Blockers & Issues\n4. Next Steps",
+    "discussion": "",
+    "decisions": "",
+    "default_roles": ["Project Manager", "Developer", "Designer", "QA Engineer"]
+}

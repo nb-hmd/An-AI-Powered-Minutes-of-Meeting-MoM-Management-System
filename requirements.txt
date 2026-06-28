@@ -1,0 +1,28 @@
+# Core Framework
+streamlit==1.45.0
+
+# Database
+psycopg2-binary==2.9.10
+sqlalchemy==2.0.36
+
+# Authentication
+bcrypt==4.2.1
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Data & Charts
+plotly==6.0.0
+pandas==2.2.3
+pillow==11.1.0
+
+# Export
+reportlab==4.4.0
+python-docx==1.1.2
+
+# AI (OpenAI API)
+openai>=1.0.0
+
+# Date parsing (for AI-extracted deadlines in Live Recording)
+python-dateutil>=2.9.0
+
