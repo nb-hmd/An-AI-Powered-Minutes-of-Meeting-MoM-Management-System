@@ -8,9 +8,20 @@
 
 > **See the full system in action before reading anything else!**
 
-https://github.com/nb-hmd/An-AI-Powered-Minutes-of-Meeting-MoM-Management-System/raw/main/Demo%20Video/Project-Demo-Video.mp4
+<div align="center">
+  <a href="https://drive.google.com/file/d/16080Dm2XhPgwbSMklzvZNQ0f_kWmBkYF/view?usp=drivesdk" target="_blank">
+    <img src="https://drive.google.com/thumbnail?id=16080Dm2XhPgwbSMklzvZNQ0f_kWmBkYF&sz=w1280"
+         alt="▶️ Watch Demo Video — AI-Powered Minutes of Meeting System"
+         width="780"
+         style="border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3);"/>
+  </a>
+  <br/><br/>
+  <a href="https://drive.google.com/file/d/16080Dm2XhPgwbSMklzvZNQ0f_kWmBkYF/view?usp=drivesdk" target="_blank">
+    <img src="https://img.shields.io/badge/▶%20Watch%20Full%20Demo-2%20min%207%20sec-red?style=for-the-badge&logo=google-drive&logoColor=white" alt="Watch Demo"/>
+  </a>
+</div>
 
-> 📁 The full demo video is included in the repository under the `Demo Video/` folder.
+> 🎥 **Click the thumbnail or button above** to watch the 2-minute demo on Google Drive — no download required.
 
 ---
 
